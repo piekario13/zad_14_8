@@ -16,7 +16,7 @@ App = React.createClass({
             searchingText: searchingText
         })
         )
-        .cath(error => console.error(Błąd));
+        .catch(error => console.error(Błąd));
         // this.getGif(searchingText, function(gif) {
         //   this.setState({
         //     loading: false,
